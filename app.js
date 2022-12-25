@@ -36,7 +36,7 @@ function submitFunction(e) {
                 revealer.textContent = '';
                 revealer.appendChild(resultDirection);
                 revealer.appendChild(phoneNumber);
-                revealer.setAttribute("class","container mt-3");
+                revealer.setAttribute("class","mt-3");
                 c = false;
                 break;
             }
@@ -52,7 +52,7 @@ function submitFunction(e) {
                 revealer.textContent = '';
                 revealer.appendChild(resultDirection);
                 revealer.appendChild(phoneNumber);
-                revealer.setAttribute("class","container mt-3");
+                revealer.setAttribute("class","mt-3");
                 c = false;
                 break;
             }
@@ -68,7 +68,7 @@ function submitFunction(e) {
                 revealer.textContent = '';
                 revealer.appendChild(resultDirection);
                 revealer.appendChild(phoneNumber);
-                revealer.setAttribute("class","container mt-3");
+                revealer.setAttribute("class","mt-3");
                 c = false;
                 break;
             }
