@@ -31,7 +31,7 @@ function submitFunction(e) {
         for (const i in noord) {
             if (x >= noord[i][0] && x <= noord[i][1]) {
                 resultDirection.textContent = 'Noord';
-                phoneNumber.setAttribute("href","0620898732");
+                phoneNumber.setAttribute("href","tel:0620898732");
                 phoneNumber.textContent = '0620898732';
                 revealer.textContent = '';
                 revealer.appendChild(resultDirection);
@@ -46,7 +46,7 @@ function submitFunction(e) {
         for (const i in west) {
             if (x >= west[i][0] && x <= west[i][1]) {
                 resultDirection.textContent = 'West';
-                phoneNumber.setAttribute("href","0613631865");
+                phoneNumber.setAttribute("href","tel:0613631865");
                 phoneNumber.textContent = '0613631865';
                 revealer.textContent = '';
                 revealer.appendChild(resultDirection);
@@ -61,7 +61,7 @@ function submitFunction(e) {
         for (const i in zuidoost) {
             if (x >= zuidoost[i][0] && x <= zuidoost[i][1]) {
                 resultDirection.textContent = 'Zuid-Oost';
-                phoneNumber.setAttribute("href","0610875953");
+                phoneNumber.setAttribute("href","tel:0610875953");
                 phoneNumber.textContent = '0610875953';
                 revealer.textContent = '';
                 revealer.appendChild(resultDirection);
